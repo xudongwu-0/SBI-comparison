@@ -38,7 +38,7 @@ Then, open any .ipynb file from the corresponding method folder (BayesFlow/, AFM
 - Adjust prior settings, likelihood choices, and inference hyperparameters.
 - Run experiments interactively without modifying core scripts.
 - Visualize posterior distributions and calibration results in real-time.
-- 
+
 This structure ensures that every experiment is reproducible and customizable with minimal effort.
 
 
