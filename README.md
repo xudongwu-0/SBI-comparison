@@ -10,18 +10,26 @@ The repository contains two experimental setups:
 - `gaussian`: Gaussian likelihood experiments.
 - `disease`: Disease modeling experiments.
 
-## 📌 Repository Structure
+## Repository Structure
 ```
 SBI-comparison/ │── AFM/ # Amortized Flow Matching (BayesFlow 2.0.0) │ ├── gaussian/ # Gaussian experiment │ ├── disease/ # Disease modeling experiment │── BayesFlow/ # BayesFlow-based inference (BayesFlow 1.1.6) │ ├── gaussian/
 │ ├── disease/ │── SNL/ # Sequential Neural Likelihood (SBI 0.23.2) │ ├── gaussian/ │ ├── disease/ │── README.md # Project documentation │── requirements.txt # Dependencies │── .gitignore # Ignore unnecessary files
 ```
 
-## 🛠 Installation
+## Installation
 
 Ensure you have Python 3.11.10 installed. To set up the environment, run:
 
 ```bash
 git clone https://github.com/xudongwu-0/SBI-comparison.git
 cd SBI-comparison
-pip install -r requirements.txt
 ```
+
+## Simulation Environment
+
+The experiments were conducted using:
+
+BayesFlow: BayesFlow Version 1.1.6, implemented in the BayesFlow framework for amortized Bayesian workflows.
+Flow Matching: BayesFlow Version 2.0.0, applied for flow matching experiments.
+Sequential Neural Likelihood (SNL): SBI Version 0.23.2, implemented in the sbi (Simulation-Based Inference) library.
+Python: Version 3.11.10.
