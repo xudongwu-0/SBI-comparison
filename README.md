@@ -22,7 +22,7 @@ cd SBI-comparison
 
 ## Fully Interactive Jupyter Notebooks
 
-All experiments in this repository are designed to be **fully interactive** and are provided as **Jupyter notebooks** (`.ipynb`). Simply open any notebook, run the code, and modify parameters as needed to explore different settings in real-time.
+All experiments in this repository are designed to be **fully interactive** and are provided as **Jupyter notebooks** (``.ipynb``). Simply open any notebook, run the code, and modify parameters as needed to explore different settings in real-time.
 
 ### Running the Notebooks
 
