@@ -46,7 +46,7 @@ This structure ensures that every experiment is reproducible and customizable wi
 
 The experiments were conducted using:
 
+- Python: Version 3.11.10.
 - BayesFlow: BayesFlow Version 1.1.6, implemented in the BayesFlow framework for amortized Bayesian workflows.
 - Flow Matching: BayesFlow Version 2.0.0, applied for flow matching experiments.
 - Sequential Neural Likelihood (SNL): SBI Version 0.23.2, implemented in the sbi (Simulation-Based Inference) library.
-- Python: Version 3.11.10.
